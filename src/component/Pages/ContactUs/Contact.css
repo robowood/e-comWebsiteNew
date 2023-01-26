@@ -1,0 +1,20 @@
+
+.contact-container{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.contact-sub{
+    margin-top: 20px;
+    
+    border: 0.5px solid #777;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-weight: bold;
+}
