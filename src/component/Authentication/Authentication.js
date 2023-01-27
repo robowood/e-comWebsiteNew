@@ -24,9 +24,9 @@ const history = useNavigate();
     const enteredPassword=passwordInputRef.current.value;
     let url;
     if(isLogin){
-        url='https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBWBlfzADZbvqEDqq7SnQINQ80zhX_jxD8'
+        url='https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDtdu0LwnINmFArNgCIHqKrsc8ZJAIevVQ'
     }else{
-        url='https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBWBlfzADZbvqEDqq7SnQINQ80zhX_jxD8';
+        url='https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDtdu0LwnINmFArNgCIHqKrsc8ZJAIevVQ';
     }
     fetch(url,{
         method:'POST',
